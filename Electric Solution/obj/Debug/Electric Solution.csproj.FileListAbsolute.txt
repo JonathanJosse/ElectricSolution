@@ -1,0 +1,216 @@
+D:\Electric Solution\Electric Solution\bin\Debug\Electric Solution.exe.config
+D:\Electric Solution\Electric Solution\bin\Debug\Electric Solution.exe
+D:\Electric Solution\Electric Solution\bin\Debug\Electric Solution.pdb
+D:\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.AssemblyReference.cache
+D:\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmRegistro.resources
+D:\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Properties.Resources.resources
+D:\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.GenerateResource.cache
+D:\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.CoreCompileInputs.cache
+D:\Electric Solution\Electric Solution\obj\Debug\Electric Solution.exe
+D:\Electric Solution\Electric Solution\obj\Debug\Electric Solution.pdb
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\bin\Debug\Electric Solution.exe.config
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\bin\Debug\Electric Solution.exe
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\bin\Debug\Electric Solution.pdb
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.AssemblyReference.cache
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmRegistro.resources
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Properties.Resources.resources
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.GenerateResource.cache
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.CoreCompileInputs.cache
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\obj\Debug\Electric Solution.exe
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\obj\Debug\Electric Solution.pdb
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmLogin.resources
+C:\Users\jonat\OneDrive\Escritorio\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmPrincial.resources
+D:\Electric Solution\Electric Solution\bin\Debug\EntityFramework.dll
+D:\Electric Solution\Electric Solution\bin\Debug\EntityFramework.SqlServer.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.Cryptography.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.TimeProvider.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.Internal.Logging.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.SqlServer.Server.dll
+D:\Electric Solution\Electric Solution\bin\Debug\SQLitePCLRaw.core.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Buffers.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Data.SqlClient.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Formats.Asn1.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.IO.Pipelines.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Memory.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Numerics.Vectors.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Security.Cryptography.Pkcs.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Text.Encodings.Web.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Text.Json.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Threading.Channels.dll
+D:\Electric Solution\Electric Solution\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Electric Solution\Electric Solution\bin\Debug\EntityFramework.xml
+D:\Electric Solution\Electric Solution\bin\Debug\EntityFramework.SqlServer.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.Cryptography.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.TimeProvider.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.Extensions.Abstractions.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.Internal.Logging.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.SqlServer.Server.pdb
+D:\Electric Solution\Electric Solution\bin\Debug\Microsoft.SqlServer.Server.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Buffers.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Data.SqlClient.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Formats.Asn1.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.IO.Pipelines.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Memory.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Numerics.Vectors.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Security.Cryptography.Pkcs.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Text.Encodings.Web.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Text.Json.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Threading.Channels.xml
+D:\Electric Solution\Electric Solution\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Electric Solution\Electric Solution\bin\Debug\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.SuggestedBindingRedirects.cache
+D:\Electric Solution\Electric Solution\obj\Debug\Electric Solution.exe.config
+D:\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmPrincial.resources
+D:\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmLogin.resources
+D:\Electric Solution\Electric Solution\obj\Debug\Electric.CFA6862F.Up2Date
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.AssemblyReference.cache
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.SuggestedBindingRedirects.cache
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric Solution.exe.config
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmPrincial.resources
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmLogin.resources
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmRegistro.resources
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Properties.Resources.resources
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.GenerateResource.cache
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.CoreCompileInputs.cache
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric Solution.exe
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric Solution.pdb
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Electric Solution.exe.config
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Electric Solution.exe
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Electric Solution.pdb
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\EntityFramework.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.Cryptography.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.TimeProvider.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.Internal.Logging.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.SqlServer.Server.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\SQLitePCLRaw.core.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Buffers.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Data.SqlClient.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Formats.Asn1.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.IO.Pipelines.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Memory.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Numerics.Vectors.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Security.Cryptography.Pkcs.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Text.Encodings.Web.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Text.Json.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Threading.Channels.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\EntityFramework.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.Cryptography.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Bcl.TimeProvider.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.Extensions.Abstractions.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.SqlClient.Internal.Logging.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.SqlServer.Server.pdb
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\Microsoft.SqlServer.Server.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Buffers.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Data.SqlClient.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Formats.Asn1.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.IO.Pipelines.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Memory.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Numerics.Vectors.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Security.Cryptography.Pkcs.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Text.Encodings.Web.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Text.Json.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Threading.Channels.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric.CFA6862F.Up2Date
