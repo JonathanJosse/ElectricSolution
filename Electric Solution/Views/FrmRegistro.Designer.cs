@@ -82,9 +82,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.groupBox1.Controls.Add(this.LbIniciar);
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.BtnGuardar);
@@ -123,9 +121,12 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.groupBox1.Location = new System.Drawing.Point(337, 12);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.groupBox1.ImeMode = System.Windows.Forms.ImeMode.HangulFull;
+            this.groupBox1.Location = new System.Drawing.Point(349, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(474, 725);
+            this.groupBox1.Size = new System.Drawing.Size(474, 749);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -133,7 +134,7 @@
             // 
             this.LbIniciar.AutoSize = true;
             this.LbIniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbIniciar.Location = new System.Drawing.Point(220, 635);
+            this.LbIniciar.Location = new System.Drawing.Point(228, 652);
             this.LbIniciar.Name = "LbIniciar";
             this.LbIniciar.Size = new System.Drawing.Size(83, 16);
             this.LbIniciar.TabIndex = 40;
@@ -145,7 +146,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(47, 635);
+            this.label14.Location = new System.Drawing.Point(47, 652);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(147, 16);
             this.label14.TabIndex = 39;
@@ -159,7 +160,7 @@
             this.BtnGuardar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BtnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnGuardar.ImageKey = "(ninguno)";
-            this.BtnGuardar.Location = new System.Drawing.Point(39, 567);
+            this.BtnGuardar.Location = new System.Drawing.Point(39, 598);
             this.BtnGuardar.Name = "BtnGuardar";
             this.BtnGuardar.Size = new System.Drawing.Size(399, 51);
             this.BtnGuardar.TabIndex = 38;
@@ -199,6 +200,7 @@
             this.linkLabel1.TabIndex = 35;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "términos y condiciones";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // RbtnAceptar
             // 

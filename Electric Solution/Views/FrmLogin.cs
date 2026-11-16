@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Electric_Solution.Controllers;
+using Electric_Solution.Views;
 
 namespace Electric_Solution
 {
@@ -53,7 +54,7 @@ namespace Electric_Solution
                 TxtUsuario.Focus();
                 return;
             }
-            using(var frm=new FrmPrincial())
+            using(var frm = new MDIParent())
             {
                 Hide();
                 frm.ShowDialog();
@@ -62,5 +63,7 @@ namespace Electric_Solution
             TxtUsuario.Clear();
             TxtContraseña.Clear();
         }
+
+       
     }
 }

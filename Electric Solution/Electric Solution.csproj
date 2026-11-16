@@ -178,52 +178,50 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cliente.cs">
-      <DependentUpon>ModelElectricSolution.tt</DependentUpon>
+      <DependentUpon>ModelElectricSolutions.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\CuentaControllers.cs" />
+    <Compile Include="Controllers\InicioControllers.cs" />
+    <Compile Include="ModelElectricSolutions.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelElectricSolutions.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelElectricSolutions.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelElectricSolutions.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelElectricSolutions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelElectricSolutions.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\ClienteModels.cs" />
     <Compile Include="Controllers\ClienteControllers.cs" />
     <Compile Include="Controllers\UsuarioControllers.cs" />
     <Compile Include="Controllers\FacturaControllers.cs" />
     <Compile Include="CorteProgramado.cs">
-      <DependentUpon>ModelElectricSolution.tt</DependentUpon>
+      <DependentUpon>ModelElectricSolutions.tt</DependentUpon>
     </Compile>
     <Compile Include="Cuenta.cs">
-      <DependentUpon>ModelElectricSolution.tt</DependentUpon>
+      <DependentUpon>ModelElectricSolutions.tt</DependentUpon>
     </Compile>
     <Compile Include="Factura.cs">
-      <DependentUpon>ModelElectricSolution.tt</DependentUpon>
+      <DependentUpon>ModelElectricSolutions.tt</DependentUpon>
     </Compile>
-    <Compile Include="ModelElectricSolution.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModelElectricSolution.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ModelElectricSolution.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModelElectricSolution.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ModelElectricSolution.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModelElectricSolution.edmx</DependentUpon>
-    </Compile>
+    <Compile Include="Models\CuentaModels.cs" />
     <Compile Include="Models\FacturaModels.cs" />
+    <Compile Include="Models\InicioModels.cs" />
     <Compile Include="Models\UsuarioModels.cs" />
     <Compile Include="Notificacion.cs">
-      <DependentUpon>ModelElectricSolution.tt</DependentUpon>
+      <DependentUpon>ModelElectricSolutions.tt</DependentUpon>
     </Compile>
     <Compile Include="Pago.cs">
-      <DependentUpon>ModelElectricSolution.tt</DependentUpon>
+      <DependentUpon>ModelElectricSolutions.tt</DependentUpon>
     </Compile>
     <Compile Include="Reporte.cs">
-      <DependentUpon>ModelElectricSolution.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Views\FrmPrincial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\FrmPrincial.Designer.cs">
-      <DependentUpon>FrmPrincial.cs</DependentUpon>
+      <DependentUpon>ModelElectricSolutions.tt</DependentUpon>
     </Compile>
     <Compile Include="Views\FrmLogin.cs">
       <SubType>Form</SubType>
@@ -239,9 +237,48 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Views\FrmPrincial.resx">
-      <DependentUpon>FrmPrincial.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="Views\User\Inicioprincipal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\User\Inicioprincipal.Designer.cs">
+      <DependentUpon>Inicioprincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MDIParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MDIParent.Designer.cs">
+      <DependentUpon>MDIParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\Uc Cuenta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\User\Uc Cuenta.Designer.cs">
+      <DependentUpon>Uc Cuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\UcConsulta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\User\UcConsulta.Designer.cs">
+      <DependentUpon>UcConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\Uc Pago.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\User\Uc Pago.Designer.cs">
+      <DependentUpon>Uc Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\Uc Reporte.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\User\Uc Reporte.Designer.cs">
+      <DependentUpon>Uc Reporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\Uc Seguimiento.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\User\Uc Seguimiento.Designer.cs">
+      <DependentUpon>Uc Seguimiento.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Views\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -256,13 +293,35 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EntityDeploy Include="ModelElectricSolution.edmx">
+    <EmbeddedResource Include="Views\User\Inicioprincipal.resx">
+      <DependentUpon>Inicioprincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MDIParent.resx">
+      <DependentUpon>MDIParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\User\Uc Cuenta.resx">
+      <DependentUpon>Uc Cuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\User\UcConsulta.resx">
+      <DependentUpon>UcConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\User\Uc Pago.resx">
+      <DependentUpon>Uc Pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\User\Uc Reporte.resx">
+      <DependentUpon>Uc Reporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\User\Uc Seguimiento.resx">
+      <DependentUpon>Uc Seguimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="ModelElectricSolutions.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ModelElectricSolution.Designer.cs</LastGenOutput>
+      <LastGenOutput>ModelElectricSolutions.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="ModelElectricSolution.edmx.diagram">
-      <DependentUpon>ModelElectricSolution.edmx</DependentUpon>
+    <None Include="ModelElectricSolutions.edmx.diagram">
+      <DependentUpon>ModelElectricSolutions.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -282,16 +341,32 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ModelElectricSolution.Context.tt">
+    <Content Include="ModelElectricSolutions.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModelElectricSolution.edmx</DependentUpon>
-      <LastGenOutput>ModelElectricSolution.Context.cs</LastGenOutput>
+      <DependentUpon>ModelElectricSolutions.edmx</DependentUpon>
+      <LastGenOutput>ModelElectricSolutions.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="ModelElectricSolution.tt">
+    <Content Include="ModelElectricSolutions.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModelElectricSolution.edmx</DependentUpon>
-      <LastGenOutput>ModelElectricSolution.cs</LastGenOutput>
+      <DependentUpon>ModelElectricSolutions.edmx</DependentUpon>
+      <LastGenOutput>ModelElectricSolutions.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\Panel de Cuenta Eléctric3.jpg" />
+    <None Include="Resources\Panel de Cuenta Eléctric2.jpg" />
+    <None Include="Resources\Panel de Cuenta User.jpg" />
+    <None Include="Resources\Panel de Cuenta Contraseña1.jpg" />
+    <None Include="Resources\Panel de Cuenta Contraseña.jpg" />
+    <None Include="Resources\Panel de Cuenta izq1.jpg" />
+    <None Include="Resources\Panel de Cuenta.jpg" />
+    <None Include="Resources\Captura de pantalla 2026-10-30 204924.png" />
+    <None Include="Resources\Captura de pantalla 2026-10-30 204838.png" />
+    <None Include="Resources\Captura de pantalla 2026-10-30 204749.png" />
+    <None Include="Resources\Captura de pantalla 2026-10-30 204655.png" />
+    <None Include="Resources\Captura de pantalla 2026-10-30 204557.png" />
+    <None Include="Resources\Captura de pantalla 2026-10-30 204458.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Admin\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\electric solution\\controllers\\clientecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|solutionrelative:electric solution\\controllers\\clientecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|d:\\proyecto\\electric solution1.2\\electric solution\\electric solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|solutionrelative:electric solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|d:\\proyecto\\electric solution1.2\\electric solution\\electric solution\\models\\clientemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|solutionrelative:electric solution\\models\\clientemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|d:\\proyecto\\electric solution1.2\\electric solution\\electric solution\\views\\user\\uc cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|solutionrelative:electric solution\\views\\user\\uc cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\electric solution\\views\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|solutionrelative:electric solution\\views\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\electric solution\\views\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|solutionrelative:electric solution\\views\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\electric solution\\views\\user\\uc cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DA8879-0163-49B2-9031-42A73D82A8BF}|Electric Solution\\Electric Solution.csproj|solutionrelative:electric solution\\views\\user\\uc cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClienteModels.cs",
-              "DocumentMoniker": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Models\\ClienteModels.cs",
-              "RelativeDocumentMoniker": "Electric Solution\\Models\\ClienteModels.cs",
-              "ToolTip": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Models\\ClienteModels.cs",
-              "RelativeToolTip": "Electric Solution\\Models\\ClienteModels.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAtwDYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T21:12:51.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClienteControllers.cs",
-              "DocumentMoniker": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Controllers\\ClienteControllers.cs",
-              "RelativeDocumentMoniker": "Electric Solution\\Controllers\\ClienteControllers.cs",
-              "ToolTip": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Controllers\\ClienteControllers.cs",
-              "RelativeToolTip": "Electric Solution\\Controllers\\ClienteControllers.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwA8AAAB5AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Program.cs",
+              "RelativeDocumentMoniker": "Electric Solution\\Program.cs",
+              "ToolTip": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Program.cs",
+              "RelativeToolTip": "Electric Solution\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T21:12:26.806Z",
+              "WhenOpened": "2026-11-14T01:36:12.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmRegistro.cs",
-              "DocumentMoniker": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Views\\FrmRegistro.cs",
-              "RelativeDocumentMoniker": "Electric Solution\\Views\\FrmRegistro.cs",
-              "ToolTip": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Views\\FrmRegistro.cs",
-              "RelativeToolTip": "Electric Solution\\Views\\FrmRegistro.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAWwDUAAAAeAAAAAAAAAA==",
+              "Title": "Uc Cuenta.cs",
+              "DocumentMoniker": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Views\\User\\Uc Cuenta.cs",
+              "RelativeDocumentMoniker": "Electric Solution\\Views\\User\\Uc Cuenta.cs",
+              "ToolTip": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Views\\User\\Uc Cuenta.cs",
+              "RelativeToolTip": "Electric Solution\\Views\\User\\Uc Cuenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T23:09:41.313Z"
+              "WhenOpened": "2026-11-14T00:39:01.73Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Views\\FrmRegistro.cs",
-              "RelativeDocumentMoniker": "Electric Solution\\Views\\FrmRegistro.cs",
-              "ToolTip": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Views\\FrmRegistro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Electric Solution\\Views\\FrmRegistro.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "Uc Cuenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Views\\User\\Uc Cuenta.cs",
+              "RelativeDocumentMoniker": "Electric Solution\\Views\\User\\Uc Cuenta.cs",
+              "ToolTip": "D:\\Proyecto\\Electric Solution1.2\\Electric Solution\\Electric Solution\\Views\\User\\Uc Cuenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Electric Solution\\Views\\User\\Uc Cuenta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T05:16:43.837Z"
+              "WhenOpened": "2026-11-14T00:17:07.007Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

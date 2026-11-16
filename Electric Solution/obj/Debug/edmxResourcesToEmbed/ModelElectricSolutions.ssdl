@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ElectricSolutionBDModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreCliente" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Cedula" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="NumeroNiss" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Correo" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="telefono" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="Direccion" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Contraseña" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="CorteProgramado">
+    <Key>
+      <PropertyRef Name="IdCorte" />
+    </Key>
+    <Property Name="IdCorte" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="HoraInicio" Type="time" Precision="7" Nullable="false" />
+    <Property Name="HoraFin" Type="time" Precision="7" Nullable="false" />
+    <Property Name="Zona" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="Cuenta">
+    <Key>
+      <PropertyRef Name="IdCuenta" />
+    </Key>
+    <Property Name="IdCuenta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NumeroCuenta" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Saldo" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="FechaVencimiento" Type="date" Nullable="false" />
+    <Property Name="IdCliente" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Factura">
+    <Key>
+      <PropertyRef Name="IdFactura" />
+    </Key>
+    <Property Name="IdFactura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Periodo" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Monto" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="FechaEmision" Type="date" Nullable="false" />
+    <Property Name="IdCuenta" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Notificacion">
+    <Key>
+      <PropertyRef Name="IdNotificacion" />
+    </Key>
+    <Property Name="IdNotificacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Mensaje" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="FechaEnvio" Type="datetime" Nullable="false" />
+    <Property Name="Leida" Type="bit" Nullable="false" />
+    <Property Name="IdCliente" Type="int" Nullable="false" />
+    <Property Name="IdCorte" Type="int" />
+  </EntityType>
+  <EntityType Name="Pago">
+    <Key>
+      <PropertyRef Name="IdPago" />
+    </Key>
+    <Property Name="IdPago" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaPago" Type="date" Nullable="false" />
+    <Property Name="Monto" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="MetodoPago" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Referencia" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="IdFactura" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Reporte">
+    <Key>
+      <PropertyRef Name="IdReporte" />
+    </Key>
+    <Property Name="IdReporte" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipoReporte" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="FechaReporte" Type="datetime" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="IdCliente" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Cuenta_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Factura_Cuenta">
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="1" />
+    <End Role="Factura" Type="Self.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="IdCuenta" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="IdCuenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notificacion_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Notificacion" Type="Self.Notificacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="Notificacion">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notificacion_Corte">
+    <End Role="CorteProgramado" Type="Self.CorteProgramado" Multiplicity="0..1" />
+    <End Role="Notificacion" Type="Self.Notificacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CorteProgramado">
+        <PropertyRef Name="IdCorte" />
+      </Principal>
+      <Dependent Role="Notificacion">
+        <PropertyRef Name="IdCorte" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pago_Factura">
+    <End Role="Factura" Type="Self.Factura" Multiplicity="1" />
+    <End Role="Pago" Type="Self.Pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Factura">
+        <PropertyRef Name="IdFactura" />
+      </Principal>
+      <Dependent Role="Pago">
+        <PropertyRef Name="IdFactura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reporte_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Reporte" Type="Self.Reporte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="Reporte">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ElectricSolutionBDModel1StoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CorteProgramado" EntityType="Self.CorteProgramado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cuenta" EntityType="Self.Cuenta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Factura" EntityType="Self.Factura" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notificacion" EntityType="Self.Notificacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pago" EntityType="Self.Pago" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reporte" EntityType="Self.Reporte" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Cuenta_Cliente" Association="Self.FK_Cuenta_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Factura_Cuenta" Association="Self.FK_Factura_Cuenta">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notificacion_Cliente" Association="Self.FK_Notificacion_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Notificacion" EntitySet="Notificacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notificacion_Corte" Association="Self.FK_Notificacion_Corte">
+      <End Role="CorteProgramado" EntitySet="CorteProgramado" />
+      <End Role="Notificacion" EntitySet="Notificacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pago_Factura" Association="Self.FK_Pago_Factura">
+      <End Role="Factura" EntitySet="Factura" />
+      <End Role="Pago" EntitySet="Pago" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reporte_Cliente" Association="Self.FK_Reporte_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Reporte" EntitySet="Reporte" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

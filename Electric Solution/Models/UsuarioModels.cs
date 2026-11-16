@@ -11,14 +11,14 @@ namespace Electric_Solution.Models
     public class UsuarioModels
     {
         //Inicializar la base de datos
-        Conexion1 db = new Conexion1();
+        Conexion2 db = new Conexion2();
 
         // Declaraciones de las Propiedades (Niss, contraseña, activo)
         public string Niss { get; set; }
         public string Contraseña { get; set; }
         public bool Activo { get; internal set; }
 
-        public string UsuarioActual { get; private set; }
+        public static string UsuarioActual { get; private set; }
 
         //Constructor Vacio
         public UsuarioModels() { }
@@ -46,7 +46,7 @@ namespace Electric_Solution.Models
         //metodo Iniciar Sesion
         public bool IniciarSesion(string Niss, string Contraseña)
         {
-            var ok = db.Cliente.FirstOrDefault(c=> c.NumeroNiss == Niss && c.Contraseña == Contraseña);
+            var ok = db.Cliente.FirstOrDefault(c => c.NumeroNiss == Niss && c.Contraseña == Contraseña);
 
             if (ok == null)
                 return false;

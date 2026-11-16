@@ -14,8 +14,6 @@ namespace Electric_Solution
     
     public partial class Cliente
     {
-        internal bool Activo;
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Cliente()
         {
@@ -40,6 +38,6 @@ namespace Electric_Solution
         public virtual ICollection<Notificacion> Notificacion { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Reporte> Reporte { get; set; }
-        public bool activo { get; internal set; }
+        public bool Activo { get; internal set; }
     }
 }

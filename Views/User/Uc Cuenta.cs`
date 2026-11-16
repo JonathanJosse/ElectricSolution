@@ -1,0 +1,3 @@
+            txtSaldo.Text = Convert.ToString(
+                cuenta.Saldo,
+                CultureInfo.CurrentCulture);

@@ -10,7 +10,7 @@ namespace Electric_Solution
     {
 
         // OBJETO DE CONEXIÓN A LA BD
-        Conexion1 db = new Conexion1();
+        Conexion2 db = new Conexion2();
 
         // DEFINIR LAS PROPIEDADES DE LA CLASE
         public string NombreCliente { get; set; }
@@ -54,6 +54,8 @@ namespace Electric_Solution
             //Guardar Datos
             db.Cliente.Add(cliente);
             db.SaveChanges();
+
+           
         }
         public List<Cliente> Listar()
         {

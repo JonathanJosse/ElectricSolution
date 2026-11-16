@@ -115,7 +115,6 @@ D:\Electric Solution\Electric Solution\obj\Debug\Electric.CFA6862F.Up2Date
 D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.AssemblyReference.cache
 D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric Solution.csproj.SuggestedBindingRedirects.cache
 D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric Solution.exe.config
-D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmPrincial.resources
 D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmLogin.resources
 D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.FrmRegistro.resources
 D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Properties.Resources.resources
@@ -214,3 +213,10 @@ D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\t
 D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric.CFA6862F.Up2Date
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Views.Inicioprincipal.resources
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Views.MDIParent.resources
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Views.Uc_Consulta.resources
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Views.Uc_Pago.resources
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Views.Uc_Reporte.resources
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Views.Uc_Seguimiento.resources
+D:\Proyecto\Electric Solution1.2\Electric Solution\Electric Solution\obj\Debug\Electric_Solution.Views.User.Uc_Cuenta.resources
